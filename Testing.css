@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+}
+
+.Firstpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-color: rgba(17, 17, 244, 0.099);
+}
+
+#Main{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.637);
+    border: none;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: Roboto;
+    letter-spacing: 5px;
+}
+
+.Firstpage .Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    width: 105px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 40px;
+    border-color: rgb(0, 0, 0);
+    border: solid;
+    color: black;
+    background-color: rgba(94, 94, 250, 0.389);
+    gap: 15px;
+    cursor: pointer;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Firstpage .Cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13px;
+    width: 95px;
+    height: 45px;
+    font-size: 17px;
+    color: black;
+    background-color: rgba(94, 94, 250, 0.389);
+    border: solid;
+    border-radius: 40px;
+    gap: 12px;
+    cursor: pointer;
+    font-family: Roboto;
+}
+
+.Header {
+    text-align: center;
+    font-size: 40px;
+    font-family: Roboto;
+    margin: 30px 400px;
+    background-color: rgba(100, 100, 252, 0.7);
+    border-radius: 20px;
+}
+
+.Menu {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 150px;
+    list-style: none;
+}
+
+.Menu button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 21px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: Roboto;
+}
+
+.Menu button::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out,left 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.Menu button:hover::after {
+    width: 100%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.mobile {
+    display: flex;
+    margin-top: 75px;
+}
+
+.mobile-grid1 {
+    display: grid;
+    margin-left: 200px;
+    margin-right: 80px;
+    grid-template-columns: auto ;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+}
+
+.mobile-grid1 > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.mobile-grid1 .item1 img {
+    height: 75%;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.mobile-grid1 .item1 img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.mobile-grid1 .item1 {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.mobile-grid1 .item1-info {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 25px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.mobile-grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    padding:10px;
+    gap: 20px;
+    background-color: white;
+}
+
+.mobile-grid2  > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.mobile-grid2 .item2 img {
+    padding: 10px 20px 30px 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.mobile-grid2 .item2 img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.mobile-grid2 .item3 img {
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.mobile-grid2 .item3 img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.mobile-grid2 .item3 {
+    cursor: pointer;
+}
+
+.mobile-grid2 .item4 {
+    height: 71%;
+    cursor: pointer;
+}
+
+.mobile-grid2 .item4 img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.mobile-grid2 .item4 img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.mobile-grid2 .item5 {
+    height: 71%;
+    cursor: pointer;
+}
+
+.mobile-grid2 .item5 img {
+    height: 50%;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.mobile-grid2 .item5 img:hover {
+    transform: scale(1.05,1.05);
+}
+
+
+
