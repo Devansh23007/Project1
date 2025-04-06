@@ -228,5 +228,490 @@ a{
     transform: scale(1.05,1.05);
 }
 
+.TVAudio{
+    display: flex;
+    margin-top: 75px;
+}
 
+.TVA-grid1{
+    display: grid;
+    margin-left: 200px;
+    margin-right: 80px;
+    grid-template-columns: auto ;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+}
 
+.TVA-grid1 > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.TVA-grid1 .item1a img {
+    height: 25%;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.TVA-grid1 .item1a img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.TVA-grid1 .item1a {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.TVA-grid1 .item1a-info {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 25px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.TVA-grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    padding:10px;
+    gap: 20px;
+    background-color: white;
+}
+
+.TVA-grid2  > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.TVA-grid2 .item2a img {
+    padding: 10px 20px 30px 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.TVA-grid2 .item2a img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.TVA-grid2 .item3a img {
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.TVA-grid2 .item3a img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.TVA-grid2 .item3a {
+    cursor: pointer;
+}
+
+.TVA-grid2 .item4a {
+    height: 71%;
+    cursor: pointer;
+}
+
+.TVA-grid2 .item4a img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.TVA-grid2 .item4a img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.TVA-grid2 .item5a {
+    height: 71%;
+    cursor: pointer;
+}
+
+.TVA-grid2 .item5a img {
+    height: 50%;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.TVA-grid2 .item5a img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.HA {
+    display: flex;
+    margin-top: 75px;
+}
+
+.HA-grid1{
+    display: grid;
+    margin-left: 200px;
+    margin-right: 80px;
+    grid-template-columns: auto ;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+}
+
+.HA-grid1 > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.HA-grid1 .item1b img {
+    height: 25%;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.HA-grid1 .item1b img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.HA-grid1 .item1b {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.HA-grid1 .item1b-info {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 25px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.HA-grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    padding:10px;
+    gap: 20px;
+    background-color: white;
+}
+
+.HA-grid2  > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.HA-grid2 .item2b img {
+    padding: 10px 20px 30px 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.HA-grid2 .item2b img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.HA-grid2 .item3b img {
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.HA-grid2 .item3b img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.HA-grid2 .item3b {
+    cursor: pointer;
+}
+
+.HA-grid2 .item4b {
+    height: 71%;
+    cursor: pointer;
+}
+
+.HA-grid2 .item4b img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.HA-grid2 .item4b img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.HA-grid2 .item5b {
+    height: 71%;
+    cursor: pointer;
+}
+
+.HA-grid2 .item5b img {
+    height: 50%;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.HA-grid2 .item5b img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.Computer {
+    display: flex;
+    margin-top: 75px;
+}
+
+.c-grid1{
+    display: grid;
+    margin-left: 200px;
+    margin-right: 80px;
+    grid-template-columns: auto ;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+}
+
+.c-grid1 > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.c-grid1 .item1c img {
+    height: 25%;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.c-grid1 .item1c img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.c-grid1 .item1c {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.c-grid1 .item1c-info {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 25px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.c-grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    padding:10px;
+    gap: 20px;
+    background-color: white;
+}
+
+.c-grid2  > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.c-grid2 .item2c img {
+    padding: 10px 20px 30px 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.c-grid2 .item2c img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.c-grid2 .item3c img {
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.c-grid2 .item3c img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.c-grid2 .item3c {
+    cursor: pointer;
+}
+
+.c-grid2 .item4c {
+    height: 71%;
+    cursor: pointer;
+}
+
+.c-grid2 .item4c img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.c-grid2 .item4c img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.c-grid2 .item5c {
+    height: 71%;
+    cursor: pointer;
+}
+
+.c-grid2 .item5c img {
+    height: 50%;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.c-grid2 .item5c img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.Accessories {
+    display: flex;
+    margin-top: 75px;
+}
+
+.a-grid1{
+    display: grid;
+    margin-left: 200px;
+    margin-right: 80px;
+    grid-template-columns: auto ;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+}
+
+.a-grid1 > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.a-grid1 .item1d img {
+    height: 25%;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.a-grid1 .item1d img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.a-grid1 .item1d {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.a-grid1 .item1d-info {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 25px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.a-grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    padding:10px;
+    gap: 20px;
+    background-color: white;
+}
+
+.a-grid2  > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.a-grid2 .item2d img {
+    padding: 10px 20px 30px 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.a-grid2 .item2d img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.a-grid2 .item3d img {
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.a-grid2 .item3d img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.a-grid2 .item3d {
+    cursor: pointer;
+}
+
+.a-grid2 .item4d {
+    height: 71%;
+    cursor: pointer;
+}
+
+.a-grid2 .item4d img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.a-grid2 .item4d img:hover {
+    transform: scale(1.05,1.05);
+}
+
+.a-grid2 .item5d {
+    height: 71%;
+    cursor: pointer;
+}
+
+.a-grid2 .item5d img {
+    height: 50%;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.a-grid2 .item5d img:hover {
+    transform: scale(1.05,1.05);
+}
